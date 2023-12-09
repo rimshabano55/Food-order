@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 350px;
+  margin: 0px auto;
+
+  width: 500px;
+  /* background-color: aquamarine; */
+  padding-top: 60px;
+}
+h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 0 0 20px rgba(75, 85, 75, 0.524); */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  color: rgb(226, 189, 43);
+  /* border: #211d1d 1px solid; */
+}
+/* h2::first-letter {
+  font-size: 80px;
+  color: black;
+} */
+.food-1 {
+  width: 300px;
+  position: absolute;
+  border-radius: 60px;
+  top: 10px;
+}
+.food-2 {
+  width: 220px;
+  position: relative;
+  top: 100px;
+  left: 140px;
+  position: relative;
+  border-radius: 50px;
+}
+.food-3 {
+  width: 240px;
+  position: absolute;
+  border-radius: 40px;
+}
+.food-1,
+.food-2,
+.food-3 {
+  border: 3px #211d1d solid;
+  box-shadow: 0 0 20px 0 rgba(75, 85, 75, 0.524);
+}
